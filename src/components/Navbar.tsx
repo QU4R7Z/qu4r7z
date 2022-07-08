@@ -8,7 +8,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className='flex flex-wrap items-center bg-neutral-800 p-3 '>
+      <nav className='flex flex-wrap items-center bg-neutral-900 p-3 '>
         <Link href='/'>
           <a className='mr-4 inline-flex items-center p-2 '>
             <span className='text-2xl font-bold uppercase tracking-wide text-white'>
@@ -39,28 +39,29 @@ export default function Navbar() {
           className={`${
             active ? '' : 'hidden'
           }   w-full lg:inline-flex lg:w-auto lg:flex-grow`}
-        />
-        <div className='flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center'>
-          <Link href='/'>
-            <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto '>
-              Home
-            </a>
-          </Link>
-          <Link href='/'>
-            <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
-              Services
-            </a>
-          </Link>
-          <Link href='/'>
-            <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
-              About us
-            </a>
-          </Link>
-          <Link href='/'>
-            <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
-              Contact us
-            </a>
-          </Link>
+        >
+          <div className='flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center'>
+            <Link href='/'>
+              <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto '>
+                Home
+              </a>
+            </Link>
+            <Link href='/'>
+              <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
+                Services
+              </a>
+            </Link>
+            <Link href='/'>
+              <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
+                About us
+              </a>
+            </Link>
+            <Link href='/'>
+              <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
+                Contact us
+              </a>
+            </Link>
+          </div>
         </div>
       </nav>
     </>
