@@ -2,7 +2,6 @@ import Link from 'next/link';
 import * as React from 'react';
 
 import Layout from '@/components/layout/Layout';
-import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
@@ -59,11 +58,6 @@ export default function HomePage() {
                 alt='Deploy with Vercel'
               />
             </UnstyledLink>
-
-            <footer className='absolute bottom-2 text-white'>
-              © {new Date().getFullYear()} By{' '}
-              <ArrowLink href='/'>QU4R7Z</ArrowLink>
-            </footer>
           </div>
         </section>
       </main>
