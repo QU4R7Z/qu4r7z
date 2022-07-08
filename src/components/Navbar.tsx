@@ -8,7 +8,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className='flex flex-wrap items-center bg-neutral-900 p-3 '>
+      <nav className='flex flex-wrap items-center bg-black p-3 '>
         <Link href='/'>
           <a className='mr-4 inline-flex items-center p-2 '>
             <span className='text-2xl font-bold uppercase tracking-wide text-white'>
