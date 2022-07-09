@@ -24,7 +24,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       </div>
       <div className='sticky flex flex-col items-center justify-center text-center'>
         <footer className='absolute bottom-5 text-white'>
-          © {new Date().getFullYear()} By <ArrowLink href='/'>QU4R7Z</ArrowLink>
+          <ArrowLink href='https://github.com/QU4R7Z'>
+            © {new Date().getFullYear()} By QU4R7Z
+          </ArrowLink>
         </footer>
       </div>
     </Layout>
