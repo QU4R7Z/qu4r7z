@@ -48,12 +48,12 @@ export default function Navbar() {
             </Link>
             <Link href='/'>
               <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
-                Services
+                Projects
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/Groups'>
               <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
-                About us
+                Groups
               </a>
             </Link>
             <Link href='/Quarcism'>

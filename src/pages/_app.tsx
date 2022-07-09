@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </div>
       <div className='sticky flex flex-col items-center justify-center text-center'>
-        <footer className='absolute bottom-5 text-white'>
+        <footer className='absolute bottom-2 text-white'>
           <ArrowLink href='https://github.com/QU4R7Z'>
             © {new Date().getFullYear()} By QU4R7Z
           </ArrowLink>
