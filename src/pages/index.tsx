@@ -28,9 +28,6 @@ export default function HomePage() {
             <h1 className='text-white'>
               쿼시즘(Quarcism)을 주장하는 집단입니다.
             </h1>
-            <p className='mt-2 text-2xl text-white'>
-              다른 이에게 피해를 주지 않는 한에서 최대한의 자유.
-            </p>
             <div className='mt-5 text-sm text-pink-600'>
               <ArrowLink href='/Quarcism'>쿼시즘이 뭐에요?</ArrowLink>
             </div>
