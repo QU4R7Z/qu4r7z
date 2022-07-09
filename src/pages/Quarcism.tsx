@@ -22,9 +22,7 @@ export default function QuarcismPage() {
       <Seo />
       <section className='relative bg-black'>
         <div className='inline-flexflex mr-4 min-h-screen flex-col p-4 text-left'>
-          <h1 className='tracking-wide text-white'>
-            쿼시즘(Quarcism) - 개소리의 시작
-          </h1>
+          <h1 className='tracking-wide text-white'>쿼시즘(Quarcism) 선언</h1>
           <div className='relative flex items-center py-5'>
             <div className='flex-grow border-t border-white'></div>
           </div>
@@ -37,6 +35,37 @@ export default function QuarcismPage() {
             수 있다면, 그 개개인들이 모인 집단의 발전이 이루어집니다.
             <br />
             <br />
+            그리고 같은 분야를 선호하는 사람이 한 명이 아니므로, 경쟁을 하며
+            서로 더 효율적이고 나은 방법을 찾게 됩니다.
+            <div className='relative flex items-center py-5'>
+              <div className='flex-grow border-t border-white'></div>
+            </div>
+            <div className='text-center'>
+              국가가 없는 걸 상상해봐요
+              <br />
+              그건 어려운 일이 아니죠
+              <br />
+              무언가를 위해 죽이거나 죽을 필요 없고
+              <br />
+              종교도 필요하지 않겠죠
+              <br />
+              상상해봐요 모든 사람들이
+              <br />
+              평화 속에서 살아가는 걸<br />
+              당신은 나를 몽상가라 말하겠지만
+              <br />
+              난 혼자가 아니에요
+              <br />
+              언젠가 당신도 우리와 함께하길 바라요
+              <br />
+              <strong>그러면 세상은 하나가 될거에요</strong>
+              <br />
+              <br />
+              John Lennon -Imagine-
+            </div>
+            <div className='relative flex items-center py-5'>
+              <div className='flex-grow border-t border-white'></div>
+            </div>
           </p>
         </div>
       </section>

@@ -22,8 +22,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <div className='relative'>
         <Component {...pageProps} />
       </div>
-      <div className='flex flex-col items-center justify-center text-center'>
-        <footer className='absolute bottom-2 text-white'>
+      <div className='sticky flex flex-col items-center justify-center text-center'>
+        <footer className='absolute bottom-5 text-white'>
           © {new Date().getFullYear()} By <ArrowLink href='/'>QU4R7Z</ArrowLink>
         </footer>
       </div>
