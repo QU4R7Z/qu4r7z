@@ -8,7 +8,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className='flex flex-wrap items-center bg-black p-3 '>
+      <nav className='flex flex-wrap items-center bg-black p-3'>
         <Link href='/'>
           <a className='mr-4 inline-flex items-center p-2 '>
             <span className='text-2xl font-bold uppercase tracking-wide text-white'>
@@ -40,7 +40,7 @@ export default function Navbar() {
             active ? '' : 'hidden'
           }   w-full lg:inline-flex lg:w-auto lg:flex-grow`}
         >
-          <div className='flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center'>
+          <div className='flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto lg:w-auto lg:flex-row lg:items-center'>
             <Link href='/'>
               <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto '>
                 Home
@@ -56,9 +56,9 @@ export default function Navbar() {
                 About us
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/Quarcism'>
               <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
-                Contact us
+                Quarcism
               </a>
             </Link>
           </div>

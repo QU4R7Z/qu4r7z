@@ -23,7 +23,7 @@ export default function HomePage() {
       <Seo />
 
       <main>
-        <section className='bg-black'>
+        <section className='relative bg-black'>
           <div className='flex min-h-screen flex-col items-center justify-center text-center'>
             <h1 className='text-white'>
               쿼시즘(Quarcism)을 주장하는 집단입니다.
@@ -32,7 +32,7 @@ export default function HomePage() {
               다른 이에게 피해를 주지 않는 한에서 최대한의 자유.
             </p>
             <div className='mt-5 text-sm text-pink-600'>
-              <ArrowLink href='/'>쿼시즘이 뭐에요?</ArrowLink>
+              <ArrowLink href='/Quarcism'>쿼시즘이 뭐에요?</ArrowLink>
             </div>
           </div>
         </section>
