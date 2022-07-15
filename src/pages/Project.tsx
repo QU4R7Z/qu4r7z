@@ -1,7 +1,6 @@
 import * as React from 'react';
 
 import Layout from '@/components/layout/Layout';
-import ArrowLink from '@/components/links/ArrowLink';
 import Seo from '@/components/Seo';
 
 /**
@@ -16,22 +15,19 @@ import Seo from '@/components/Seo';
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
 
-export default function HomePage() {
+export default function QuarcismPage() {
   return (
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
-
-      <main>
-        <section className='relative bg-black'>
-          <div className='flex min-h-screen flex-col items-center justify-center text-center'>
-            <h1 className='text-white'>QU4R7Z.</h1>
-            <div className='mt-5 text-sm text-pink-600'>
-              <ArrowLink href='/Quarcism'>프로젝트 둘러보기</ArrowLink>
-            </div>
+      <section className='relative bg-black'>
+        <div className='inline-flexflex mr-4 min-h-screen flex-col p-4 text-left'>
+          <h1 className='tracking-wide text-white'>진행중인 프로젝트</h1>
+          <div className='relative flex items-center py-5'>
+            <div className='flex-grow border-t border-white'></div>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
     </Layout>
   );
 }

@@ -46,19 +46,19 @@ export default function Navbar() {
                 Home
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/Project'>
               <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
-                Projects
+                Project
               </a>
             </Link>
-            <Link href='/Groups'>
+            <Link href='/Member'>
               <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
-                Groups
+                Member
               </a>
             </Link>
-            <Link href='/Quarcism'>
+            <Link href='/Community'>
               <a className='w-full items-center justify-center rounded px-3 py-2 font-bold text-white hover:bg-pink-600 hover:text-white lg:inline-flex lg:w-auto'>
-                Quarcism
+                Community
               </a>
             </Link>
           </div>
